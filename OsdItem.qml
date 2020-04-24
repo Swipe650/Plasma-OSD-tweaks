@@ -30,7 +30,7 @@ Row {
 
     property int iconWidth: units.iconSizes.medium
     readonly property int percentageWidth: percentageLabelMetrics.boundingRect.width
-    property int progressBarWidth: Screen.desktopAvailableWidth / 5
+    property int progressBarWidth: Screen.desktopAvailableWidth / 10
 
     width: iconWidth + spacing + progressBarWidth + spacing + percentageWidth
     height: iconWidth
